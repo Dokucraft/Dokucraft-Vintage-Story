@@ -1,0 +1,9 @@
+{
+	"type": "theme",
+	"modid": "dokustory",
+	"name": "DokuStory Texture Pack",
+	"description" : "Changes textures to be Doku'esque.",
+	"author": "Slye_Fox",
+	"version": "1.0.0",
+	"side": "client"
+}

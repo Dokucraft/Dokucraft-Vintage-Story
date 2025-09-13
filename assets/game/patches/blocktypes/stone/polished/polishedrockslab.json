@@ -1,0 +1,45 @@
+[
+    {
+        "file": "game:blocktypes/stone/polished/polishedrockslab.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "value": {
+		"*-up-free": {
+			horizontals: { base: "block/stone/polishedrockslab/{rock}" },
+			verticals: { base: "block/stone/polishedrock/{rock}" }
+		},
+		"*-down-free": {
+			horizontals: { base: "block/stone/polishedrockslab/{rock}" },
+			verticals: { base: "block/stone/polishedrock/{rock}" }
+		},
+		"*-north-free": {
+			"verticals": { base: "block/stone/polishedrockslab/{rock}" },
+			"east": { base: "block/stone/polishedrockslab/{rock}", rotation: 90 },
+			"west": { base: "block/stone/polishedrockslab/{rock}", rotation: 90 },
+			"north": { base: "block/stone/polishedrock/{rock}" },
+			"south": { base: "block/stone/polishedrock/{rock}" }
+		},
+		"*-south-free": {
+			"verticals": { base: "block/stone/polishedrockslab/{rock}" },
+			"east": { base: "block/stone/polishedrockslab/{rock}", rotation: 90 },
+			"west": { base: "block/stone/polishedrockslab/{rock}", rotation: 90 },
+			"north": { base: "block/stone/polishedrock/{rock}" },
+			"south": { base: "block/stone/polishedrock/{rock}" }
+		},
+		"*-east-free": {
+			"verticals": { base: "block/stone/polishedrockslab/{rock}", rotation: 90 },
+			"east": { base: "block/stone/polishedrock/{rock}" },
+			"west": { base: "block/stone/polishedrock/{rock}" },
+			"north": { base: "block/stone/polishedrockslab/{rock}", rotation: 90 },
+			"south": { base: "block/stone/polishedrockslab/{rock}", rotation: 90 }
+		},
+		"*-west-free": {
+			"verticals": { base: "block/stone/polishedrockslab/{rock}", rotation: 90 },
+			"east": { base: "block/stone/polishedrock/{rock}" },
+			"west": { base: "block/stone/polishedrock/{rock}" },
+			"north": { base: "block/stone/polishedrockslab/{rock}", rotation: 90 },
+			"south": { base: "block/stone/polishedrockslab/{rock}", rotation: 90 }
+		}
+        }
+    }
+]
