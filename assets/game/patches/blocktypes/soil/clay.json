@@ -1,0 +1,12 @@
+[
+    {
+        "file": "game:blocktypes/soil/clay.json",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+		all: {base: "block/soil/{type}clay*"},
+		snowed: {base: "block/plant/grasscoverage/snow/normal"},
+		specialSecondTexture: {base: "block/plant/grasscoverage/{grasscoverage}"}
+	}
+    }
+]
