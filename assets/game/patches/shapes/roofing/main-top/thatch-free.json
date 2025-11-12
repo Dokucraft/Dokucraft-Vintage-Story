@@ -1,0 +1,12 @@
+[
+    {
+        "file": "game:shapes/block/roofing/main-top/thatch-free.json",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+		"normal-side": "block/plant/grassroofing/normal-side",
+		"normal-top": "block/plant/grassroofing/normal-top",
+		"straw1": "block/plant/grassroofing/straw1"
+        }
+    }
+]
