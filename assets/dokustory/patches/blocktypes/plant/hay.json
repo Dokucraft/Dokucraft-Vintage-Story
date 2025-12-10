@@ -1,0 +1,30 @@
+[
+    {
+        "file": "game:blocktypes/plant/hay.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "value": {
+		"*-ud": {
+			horizontals: { base: "dokustory:block/hay/bale_{type}-side" },
+			verticals: { base: "dokustory:block/hay/bale_{type}-top" },
+		},
+		"*-ns": {
+			"all": { base: "dokustory:block/hay/bale_{type}-side", rotation: 90 },
+			"west": { base: "dokustory:block/hay/bale_{type}-side", rotation: 270 },
+			"up": { base: "dokustory:block/hay/bale_{type}-side" },
+			"down": { base: "dokustory:block/hay/bale_{type}-side", rotation: 180 },
+
+			"north": { base: "dokustory:block/hay/bale_{type}-top" },
+			"south": { base: "dokustory:block/hay/bale_{type}-top" },
+		},
+		"*-we": {
+			"all": { base: "dokustory:block/hay/bale_{type}-side", rotation: 270 },
+			"south": { base: "dokustory:block/hay/bale_{type}-side", rotation: 90 },
+			"up": { base: "dokustory:block/hay/bale_{type}-side", rotation: 270 },
+
+			"west": { base: "dokustory:block/hay/bale_{type}-top" },
+			"east": { base: "dokustory:block/hay/bale_{type}-top" }
+		}
+        }
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "file": "game:blocktypes/stone/cobble/cobblestonestairs.json",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+		horizontals: { base: "dokustory:block/stone/cobblestonestairs/{rock}" },
+		up: { base: "dokustory:block/stone/cobblestoneslabtop/{rock}*" },
+		down: { base: "block/stone/cobblestone/{rock}*" }
+        }
+    }
+]
