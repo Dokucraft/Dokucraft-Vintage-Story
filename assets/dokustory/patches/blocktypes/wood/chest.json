@@ -1,0 +1,126 @@
+[
+    {
+        "file": "game:blocktypes/wood/chest.json",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+		"normal-generic-sides2": { base: "block/wood/trunk/sides" },
+		"normal-generic-lid": { base: "dokustory:block/wood/trunk/lid_small" },
+		"normal-generic-accessories": { base: "block/wood/trunk/accessories" },
+
+		"normal-aged-sides2": { base: "block/wood/trunk/aged-sides" },
+		"normal-aged-lid": { base: "block/wood/trunk/aged-lid" },
+		"normal-aged-accessories": { base: "block/wood/trunk/aged-accessories" },
+		
+		"collapsed1-corners": {
+			base: "block/wood/chest/aged/corners",
+			alternates: [
+				{ base: "block/wood/chest/aged/corners", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/corners", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		"collapsed1-lid": { 
+			base: "block/wood/chest/aged/lid",
+			alternates: [
+				{ base: "block/wood/chest/aged/lid", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/lid", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		"collapsed1-sides": { 
+			base: "block/wood/chest/aged/sides",
+			alternates: [
+				{ base: "block/wood/chest/aged/sides", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/sides", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		"collapsed1-floor": { 
+			base: "block/wood/chest/aged/floor",
+			alternates: [
+				{ base: "block/wood/chest/aged/floor", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/floor", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		
+		"collapsed2-corners": {
+			base: "block/wood/chest/aged/corners",
+			alternates: [
+				{ base: "block/wood/chest/aged/corners", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/corners", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		"collapsed2-lid": { 
+			base: "block/wood/chest/aged/lid",
+			alternates: [
+				{ base: "block/wood/chest/aged/lid", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/lid", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		"collapsed2-sides": { 
+			base: "block/wood/chest/aged/sides",
+			alternates: [
+				{ base: "block/wood/chest/aged/sides", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/sides", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		"collapsed2-floor": { 
+			base: "block/wood/chest/aged/floor",
+			alternates: [
+				{ base: "block/wood/chest/aged/floor", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/floor", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		
+
+		"collapsed3-corners": {
+			base: "block/wood/chest/aged/corners",
+			alternates: [
+				{ base: "block/wood/chest/aged/corners", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/corners", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		"collapsed3-lid": { 
+			base: "block/wood/chest/aged/lid",
+			alternates: [
+				{ base: "block/wood/chest/aged/lid", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/lid", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		"collapsed3-sides": { 
+			base: "block/wood/chest/aged/sides",
+			alternates: [
+				{ base: "block/wood/chest/aged/sides", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/sides", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		"collapsed3-floor": { 
+			base: "block/wood/chest/aged/floor",
+			alternates: [
+				{ base: "block/wood/chest/aged/floor", overlays: [ "block/overlay/lichen1" ] },
+				{ base: "block/wood/chest/aged/floor", overlays: [ "block/overlay/lichen2" ] }
+			]
+		},
+		
+		
+		"golden-top": { base: "block/wood/chest/golden/top" },
+		"golden-sides2": { base: "block/wood/chest/golden/sides2" },
+		"golden-sides1":{ base: "block/wood/chest/golden/sides1" },
+		"golden-inside": { base: "block/wood/chest/golden/inside" },
+
+		"owl-top": { base: "block/wood/chest/owl/top" },
+		"owl-sides2": { base: "block/wood/chest/owl/sides2" },
+		"owl-sides1": { base: "block/wood/chest/owl/sides1" },
+		"owl-inside": { base: "block/wood/chest/owl/inside" },
+		
+		"golden-aged-top": { base: "block/wood/chest/golden-aged/top" },
+		"golden-aged-sides2": { base: "block/wood/chest/golden-aged/sides2" },
+		"golden-aged-sides1":{ base: "block/wood/chest/golden-aged/sides1" },
+		"golden-aged-inside": { base: "block/wood/chest/golden-aged/inside" },
+
+		"owl-aged-top": { base: "block/wood/chest/owl-aged/top" },
+		"owl-aged-sides2": { base: "block/wood/chest/owl-aged/sides2" },
+		"owl-aged-sides1": { base: "block/wood/chest/owl-aged/sides1" },
+		"owl-aged-inside": { base: "block/wood/chest/owl-aged/inside" }
+		}
+	}
+    }
+]
